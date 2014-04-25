@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Unscientism",
-	"version": "1.0",
+	"version": "1.1",
 	"description": "Replaces science with 'science'.",
 	"content_scripts": 
 	[
