@@ -31,11 +31,11 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-    v = v.replace(/\scientist\b/g, '"scientist"');
+    v = v.replace(/\bscientist\b/g, '"scientist"');
 	v = v.replace(/\bScientist\b/g, '"Scientist"');
-    v = v.replace(/\expert\b/g, '"expert"');
+    v = v.replace(/\bexpert\b/g, '"expert"');
 	v = v.replace(/\bExpert\b/g, '"Expert"');
-    v = v.replace(/\professional\b/g, '"professional"');
+    v = v.replace(/\bprofessional\b/g, '"professional"');
 	v = v.replace(/\bProfessional\b/g, '"Professional"');
 	
 	textNode.nodeValue = v;
