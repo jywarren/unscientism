@@ -43,6 +43,10 @@ function handleText(textNode)
 	v = v.replace(/\bProfessional\b/g, '"Professional"');
     v = v.replace(/\bprofessionals\b/g, '"professionals"');
 	v = v.replace(/\bProfessionals\b/g, '"Professionals"');
+    v = v.replace(/\bjournalist\b/g, '"journalist"');
+	v = v.replace(/\bJournalist\b/g, '"Journalist"');
+    v = v.replace(/\bjournalists\b/g, '"journalists"');
+	v = v.replace(/\bJournalists\b/g, '"Journalists"');	
 	
 	textNode.nodeValue = v;
 }
