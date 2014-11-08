@@ -9,3 +9,6 @@ Most effectively used on Google News while searching for "drone":
 
 https://www.google.com/search?q=drone#q=drone&tbm=nws
 
+Easily install it on the Chrome Dev store or whatever it's called:
+
+https://chrome.google.com/webstore/detail/drone2shithead/mnjhlpkfifacjpllkaljpaggcbojnjji?utm_source=gmail
