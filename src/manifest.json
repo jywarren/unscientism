@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Unscientism",
-	"version": "1.2",
-	"description": "Replaces science with 'science'.",
+	"name": "Drone2Shithead",
+	"version": "1.0",
+	"description": "Replaces the word 'drone' with 'shithead'.",
 	"content_scripts": 
 	[
 		{
