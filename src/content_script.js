@@ -31,18 +31,8 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-    v = v.replace(/\bscientist\b/g, '"scientist"');
-	v = v.replace(/\bScientist\b/g, '"Scientist"');
-    v = v.replace(/\bscientists\b/g, '"scientists"');
-	v = v.replace(/\bScientists\b/g, '"Scientists"');
-    v = v.replace(/\bexpert\b/g, '"expert"');
-	v = v.replace(/\bExpert\b/g, '"Expert"');
-    v = v.replace(/\bexperts\b/g, '"experts"');
-	v = v.replace(/\bExperts\b/g, '"Experts"');
-    v = v.replace(/\bprofessional\b/g, '"professional"');
-	v = v.replace(/\bProfessional\b/g, '"Professional"');
-    v = v.replace(/\bprofessionals\b/g, '"professionals"');
-	v = v.replace(/\bProfessionals\b/g, '"Professionals"');
+    v = v.replace(/\bdrone\b/g, 'shithead');
+	v = v.replace(/\bDrone\b/g, 'Shithead');
 	
 	textNode.nodeValue = v;
 }
