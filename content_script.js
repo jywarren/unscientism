@@ -16,13 +16,13 @@ function walk(node)
 			while ( child ) 
 			{
 				next = child.nextSibling;
-				walk(child);
+				if (node.nodeName != "TEXTAREA" && node.nodeName != "INPUT") walk(child);
 				child = next;
 			}
 			break;
 
 		case 3: // Text node
-			if (node.nodeName != "TEXTAREA" && node.nodeName != "INPUT") handleText(node);
+			handleText(node);
 			break;
 	}
 }
