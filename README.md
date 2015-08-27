@@ -9,7 +9,8 @@ Install it:
 
 * Download the zip file here: https://github.com/jywarren/unscientism/releases/
 * Open `chrome://extensions` in your Chrome or Chromium browser.
-* Drag the zip file onto the page.
+* Unzip the zip file.
+* Drag the resulting folder onto the page.
 
 
 
