@@ -22,7 +22,7 @@ function walk(node)
 			break;
 
 		case 3: // Text node
-			handleText(node);
+			if (node.nodeName != "TEXTAREA" && node.nodeName != "INPUT") handleText(node);
 			break;
 	}
 }
